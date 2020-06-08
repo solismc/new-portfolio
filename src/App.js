@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+/*import logo from './logo.svg';*/
 import './App.css';
 
 function App() {
@@ -7,9 +7,9 @@ function App() {
   <div className="App">
       <section class="navbar">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li class="active"><a href="#">About me</a></li>
-          <li><a href="#">Projects</a></li>
+          <li>Home</li>
+          <li>About me</li>
+          <li>Projects</li>
         </ul>
       </section>
       
@@ -19,8 +19,8 @@ function App() {
       <section>
       <img class="headshot" src="/images/Manuel-Headshot.jpeg" alt="Manuel Solis" width="200" height="200"/>
       <section class="bubble-box">
-        <p>Manuel Solis</p>
-        <p class="bubble-box-span">Full-Stack Dev | Marketing Guru | Mentor</p>
+        <h2>Manuel Solis</h2>
+        <h3 class="bubble-box-span">Full-Stack Dev | Marketing Guru | Mentor</h3>
       </section>
       </section>
     </section>
