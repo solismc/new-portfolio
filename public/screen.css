@@ -44,11 +44,10 @@ body {
   flex-direction: column;
   align-content: ;
   align-items: center;
-  padding-top: 1px;
   list-style: none;
   height: 10vh;
   margin-top: 0px;
-  width: 100%;
+  width: 105vw;
   font-size: x-large;
 }
 
@@ -84,11 +83,12 @@ body {
   font-weight: bolder;
 }
 
-/*.bubble-box {
+.bubble-box {
   color: black;
   font-size: 22px;
   background-color: #86BBD8;
-}*/
+  padding-left: 5vw;
+}
 
 .hero-unit {
   display: flex;
@@ -96,10 +96,9 @@ body {
   flex-direction: row;
   align-items: center;
   background-color: #86BBD8;
-  width: 100%;
+  width: 101vw;
   height: 54vh;
-  padding-left: 80px;
-  padding-top: 25px;
+  padding: 60px;
 }
 
 .hero-unit-projects {
@@ -109,13 +108,8 @@ body {
   align-items: center;
   background-color: #86BBD8;
   width: 100%;
-  padding-left: 60px;
-  padding-right: 60px;
-  border-bottom-style: solid;
-  border-width: 90%;
+  padding: 60px;
   border-color: #2F4858;
-  padding-bottom: 20px;
-  padding-top: 20px;
 }
 
 .rotate-text {
@@ -133,7 +127,7 @@ body {
 
 .body-projects {
   padding-right: 12vw;
- padding-left: 9vw;
+  padding-left: 9vw;
 }
 
 .quote {
