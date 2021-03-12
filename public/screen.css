@@ -49,6 +49,7 @@ body {
   height: 10vh;
   margin-top: 0px;
   width: 100%;
+  font-size: x-large;
 }
 
 .navbar.navbar-expand-sm.bg-light {
@@ -131,8 +132,8 @@ body {
 }
 
 .body-projects {
-  padding-right: 70px;
- padding-left: 24px;
+  padding-right: 12vw;
+ padding-left: 9vw;
 }
 
 .quote {
